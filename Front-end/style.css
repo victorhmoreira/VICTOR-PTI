@@ -1,0 +1,262 @@
+@import url('https://fonts.google.com/specimen/Rubik+Bubbles#standard-styles');
+
+h1 {
+    font-family:'Rubik Bubbles','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    text-align: center;
+  }
+
+#divBusca{
+    border:solid 2px;
+    width: 410px;
+    height: 32px;
+  }
+  
+#txtBusca{
+    font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    float:center;
+    background-color:transparent;
+    padding: right 5px;
+    padding: left 5px;
+    font-size:22px;
+    border:none;
+    height:25px;
+    width:350px;
+  }
+
+#divBusca {
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#btnCadastre {
+    font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#0f8a75;
+    color: white;
+    height:35px;
+    width:115px;
+    float: right;
+    margin: 0 -1px;
+    border-radius: 5px;
+}
+#btnEntrar {
+  font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:white;
+    color: rgb(169, 47, 206);
+    height:35px;
+    width:80px;
+    float: right;
+    border-color: rgb(169, 47, 206);
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+#btnPrimeiroDestaque {
+  width: 200px;
+  height: 250px;
+  margin: 0 50px; 
+}
+
+#divDestaque {
+  text-align: center;
+}
+
+#btnSegundoDestaque {
+  width: 150px;
+  height: 250px;
+  margin: 0 20px; 
+}
+
+#pTextoDestaque {
+  font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+#pValorItens {
+  font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+
+}
+
+.spaceTextoDestaque {
+  display: inline-block;
+  width: 100px;
+}
+
+.spaceValorItens {
+  display: inline-block;
+  width: 160px;
+  
+}
+
+.space {
+  display: inline-block;
+  width: 30px;
+}
+
+#btnComprador {
+  font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color:#0f8a75;;
+  color: white;
+  height:35px;
+  width:150px;
+  float: center;
+  border-color: #0f8a75;
+  border-radius: 5px;
+} 
+
+#divBotoes{
+  text-align: center;
+}
+
+#btnVendedor {
+  font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color:rgb(169, 47, 206);
+  color: white;
+  height:35px;
+  width:150px;
+  float: center;
+  border-color: rgb(169, 47, 206);
+  border-radius: 5px;
+}
+
+#btnAdicionar {
+    background-color:#816ae9;
+    color: white;
+    height:35px;
+    width:150px;
+    float: center;
+    border-color: #816ae9;
+    border-radius:5px;
+    
+} 
+
+#btnComprar {
+    background-color:#a72ba0;
+    color: white;
+    height:35px;
+    width:100px;
+    float: center;
+    border-color: #a72ba0;
+    border-radius:5px;
+    
+} 
+
+#btnProduto {
+  width: 250px;
+  height: 300px;
+  margin: 0 50px; 
+}
+
+#divFrete {
+  margin-right: auto;
+  border:solid 1px;
+  width:300px;
+  height: 30px;  
+}
+
+#txtFrete{
+  font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  float:left;
+  background-color:transparent;
+  padding-left:50px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:200px;
+}
+
+#btnContato {
+    background-color:#816ae9;
+    color: white;
+    height:35px;
+    width:300px;
+    float: center;
+    border-color: #816ae9;
+    border-radius:5px;
+    
+} 
+
+#divContato {
+  text-align: left;
+}
+
+#sessaoCorpo {
+  width:960px;
+  margin: auto;
+  }
+
+  #divConteudo {
+  display: table;
+  }
+  
+  #divImagem {
+  display: table-cell;
+  float: left;
+  }
+
+  #divTexto {
+  font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: table-cell;
+  float: left;
+  width: 300px;
+  margin-top: -20px; 
+  margin-left: 20px;
+  }
+
+  #pTextoTitulo {
+    font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold
+  }
+  
+  #btnBusca{
+    float: right;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    color: black;
+    border-radius: auto;
+  }
+  
+  #btnGeek{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    image-resolution: auto;
+  }
+#btnBusca{
+  float: right;
+  background-color: transparent;
+  height: auto;
+  width: auto;
+  color: black;
+  border-radius: auto;
+}
+
+#btnGeek{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  image-resolution: auto;
+}
+
+#btnImage{
+ display: initial;
+ width: 660px;
+ height: 350px;
+}
+
+#btnImage2{
+  display: initial;
+  width: 660px;
+  height: 350px;
+  
+}
+
+#logoInferior{
+
+  display: inline;
+  width: 1350px;
+  height: 400px;
+}
